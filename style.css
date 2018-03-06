@@ -1,14 +1,29 @@
+/* CSS for LP items */
+
+.lp-info {
+  background-color: #f8f8f8;
+  height: 100%;
+}
+
+.padding-10-px {
+  padding: 10px !important;
+
+}
+
 /* CSS for typeform */
 
-html{ margin: 0; height: 100%; overflow: hidden;}
+html {margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
 iframe{
   position: absolute;
   left:0;
   right:0;
   bottom:0;
-  top:90px;
+  top:200px;
   border:0;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 200px);
 }
 
 /* Main navbar */
@@ -88,3 +103,4 @@ iframe{
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
