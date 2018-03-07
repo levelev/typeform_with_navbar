@@ -3,8 +3,11 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>Typeform Test</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -15,7 +18,7 @@
     </a>
     <!-- Right Navigation -->
     <div class="navbar-wagon-right hidden-xs hidden-sm">
-      <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
+      <a href="" class="navbar-wagon-item navbar-wagon-link" data-toggle="modal" data-target="#exampleModalLong">Modal</a>
       <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
       <a href="tel:030123456" class="btn btn-primary" role="button"><i class="fa fa-phone"></i> 030 123 456</a>
     </div>
@@ -25,6 +28,45 @@
       <div class="col-sm-12">
         <h1 class="text-center">Lorem Ipsum</h1>
         <h2 class="text-center">Subtitle Lorem Ipsum</h2>
+
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+    Launch demo modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, corporis distinctio dignissimos ab quasi ullam doloremque dolore eum non illo debitis ducimus labore reiciendis unde sit, nesciunt eligendi a neque.</div>
+          <div>Quae magnam velit saepe repellat accusantium provident, sit, quaerat possimus. Magnam suscipit nesciunt error obcaecati laborum dignissimos, pariatur est asperiores in maiores quasi vel corrupti et, cum minima similique ducimus!</div>
+          <div>Provident, voluptatem, veniam eaque saepe laborum ipsum, porro, hic aperiam aut recusandae accusantium! Nemo quos ullam provident aliquam iure delectus maiores est tempore cumque consequuntur dolorem eum, ad, magnam beatae.</div>
+          <div>Cupiditate laboriosam at mollitia animi fugit debitis ab temporibus quod voluptates sequi iste quisquam alias enim error magni molestias ipsam, maiores ullam quibusdam placeat, eaque totam ea. Nobis, eum, asperiores!</div>
+          <div>Exercitationem modi, sint, rerum libero debitis vitae reprehenderit velit rem soluta ipsum quos harum dolore qui nostrum eum dolorum, aspernatur atque aperiam ratione deserunt eaque maxime officia molestiae. Sapiente, deleniti!</div>
+          <div>Nobis vero, pariatur animi ea, quasi delectus libero laboriosam at, voluptatum quam dolore ex reiciendis ab. Labore officia quas, minus. Nihil facere sequi tempore quidem similique corporis est quaerat commodi!</div>
+          <div>Dolor vitae, animi necessitatibus vel nulla quas magnam impedit quod. Ratione quidem non officia eum praesentium doloribus debitis numquam hic fugit. Modi earum autem nam dicta nesciunt laboriosam atque dolor.</div>
+          <div>Ad autem quod, praesentium, quibusdam incidunt, optio excepturi magni in cumque reprehenderit esse temporibus velit ipsa. Culpa cupiditate corrupti eum, assumenda illum impedit aliquid nam, in voluptas, alias eius et.</div>
+          <div>Distinctio eligendi eum ut accusantium et error vitae necessitatibus laborum minus magni voluptatem iste eius, consequuntur, saepe praesentium! Eum sapiente harum facilis enim cum repudiandae laborum, veritatis facere qui beatae.</div>
+          <div>Quis obcaecati eveniet consequuntur quibusdam sint asperiores, aut ipsum quia illum deleniti expedita tenetur saepe impedit fuga consectetur ab voluptas quas magni, nisi accusantium ratione commodi reprehenderit culpa. Eos, facilis!</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
       </div>
     </div>
     <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://developerplatform.typeform.com/to/Xc7NMh"></iframe>
